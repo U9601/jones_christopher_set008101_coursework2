@@ -7,3 +7,8 @@ To start on Mac:
 Markup : * Bullet list First start up the mongoDB 
          * Bullet list Run the Terminal and type mongo to connect the database
          * Bullet list Open another Terminal and direct it to where the project is saved
+
+Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
