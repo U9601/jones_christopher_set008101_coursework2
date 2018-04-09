@@ -1,0 +1,8 @@
+extends layout
+
+h1 Aw poop! The following has gone wrong:
+   h2= error.status
+
+   h2= message
+
+   pre #{error.stack}

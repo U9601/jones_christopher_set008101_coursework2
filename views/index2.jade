@@ -1,0 +1,118 @@
+extends dashboard
+
+block design
+  if newPostTitle
+    .w3-row
+      .w3-col.l8.s12
+        .w3-card-4.w3-margin.w3-white
+          img(src="/images/sharing.jpg", alt="Nature", style="width:100%")     
+          .w3-container 
+          h3
+              block postTitle
+          block postDate           
+          .w3-container
+              block postDesc
+   form#form(name="form", method="post", action="/editdashboard")
+    input#editTitle(type="text", name = 'editTitle', placeholder="Edit Title")
+    input#editDesc(type="text", name = 'editDesc', placeholder="Edit Descripton")    	
+    input#editpost(type="submit", value="Edit Post")
+    form#form1delete(name="formdelete", method="post", action="/deletepost")
+      input#deletepost(type = "submit", value = "Delete Post", , name="deletepost")
+                
+block design1
+  if newPostTitle1
+    .w3-row
+      .w3-col.l8.s12
+        .w3-card-4.w3-margin.w3-white
+          img(src="/images/patton.jpg", alt="Nature", style="width:100%")     
+          .w3-container 
+          h3
+              block postTitle1
+          block postDate1           
+          .w3-container
+              block postDesc1
+   form#form1(name="form", method="post", action="/editdashboard")
+    input#editTitle1(type="text", name = 'editTitle1', placeholder="Edit Title")
+    input#editDesc1(type="text", name = 'editDesc1', placeholder="Edit Descripton")    	
+    input#editpost1(type="submit", value="Edit Post")
+    form#form1delete1(name="formdelete", method="post", action="/deletepost")
+      input#deletepost1(type = "submit", value = "Delete Post", , name="deletepost1")
+  
+
+block design2
+  if newPostTitle2
+    .w3-row
+      .w3-col.l8.s12
+        .w3-card-4.w3-margin.w3-white
+           img(src="/images/Tiger.jpg", alt="Nature", style="width:100%")     
+           .w3-container 
+           h3
+               block postTitle2
+           block postDate2           
+           .w3-container
+               block postDesc2
+    form#form2(name="form", method="post", action="/editdashboard")
+      input#editTitle2(type="text", name = 'editTitle2', placeholder="Edit Title")
+      input#editDesc2(type="text", name = 'editDesc2', placeholder="Edit Descripton")    	
+      input#editpost2(type="submit", value="Edit Post")
+      form#form1delete2(name="formdelete", method="post", action="/deletepost")
+        input#deletepost2(type = "submit", value = "Delete Post", , name="deletepost2")
+  
+
+block design3
+  if newPostTitle3
+    .w3-row
+      .w3-col.l8.s12
+        .w3-card-4.w3-margin.w3-white
+           img(src="/images/430U.jpg", alt="Nature", style="width:100%")     
+           .w3-container 
+           h3
+               block postTitle3
+           block postDate3           
+           .w3-container
+               block postDesc3
+    form#form3(name="form", method="post", action="/editdashboard")
+      input#editTitle3(type="text", name = 'editTitle3', placeholder="Edit Title")
+      input#editDesc3(type="text", name = 'editDesc3', placeholder="Edit Descripton")    	
+      input#editpost3(type="submit", value="Edit Post")
+    form#form1delete3(name="formdelete", method="post", action="/deletepost")
+        input#deletepost3(type = "submit", value = "Delete Post", , name="deletepost3")
+                 
+block design4
+   if newPostTitle4 
+     .w3-row
+       .w3-col.l8.s12
+         .w3-card-4.w3-margin.w3-white
+            img(src="/images/140.jpg", alt="Nature", style="width:100%")     
+            .w3-container 
+            h3
+               block postTitle4
+            block postDate4           
+            .w3-container
+               block postDesc4
+     form#form4(name="form", method="post", action="/editdashboard")
+       input#editTitle4(type="text", name = 'editTitle4', placeholder="Edit Title")
+       input#editDesc4(type="text", name = 'editDesc4', placeholder="Edit Descripton")    	
+       input#editpost4(type="submit", value="Edit Post")
+       form#form1delete4(name="formdelete", method="post", action="/deletepost")
+         input#deletepost4(type = "submit", value = "Delete Post", name="deletepost4")
+
+block design5
+  if newPostTitle5
+    .w3-row
+      .w3-col.l8.s12
+        .w3-card-4.w3-margin.w3-white
+           img(src="/images/m48A1Patton.jpg", alt="Nature", style="width:100%")     
+           .w3-container 
+           h3
+              block postTitle5
+           block postDate5           
+           .w3-container
+              block postDesc5
+     form#form5(name="form", method="post", action="/editdashboard")
+        input#editTitle5(type="text", name = 'editTitle5', placeholder="Edit Title")
+        input#editDesc5(type="text", name = 'editDesc5', placeholder="Edit Descripton")    	
+        input#editpost5(type="submit", value="Edit Post")
+        form#form1delete5(name="formdelete", method="post", action="/deletepost")
+          input#deletepost5(type = "submit", value = "Delete Post", name="deletepost5")
+    

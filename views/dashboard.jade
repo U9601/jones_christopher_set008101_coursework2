@@ -1,0 +1,53 @@
+doctype html
+html
+  head
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    ul
+     li
+       a(href="/") Home
+     li
+       a(href="/login") Login
+     li
+       a(href="/register") Sign Up
+     li
+       a(href="/dashboard") Dashboard
+     li
+       a(href="/logout") Logout
+     li
+       a(href="/about") About
+       
+    link(rel="stylesheet", type="text/css", href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin")
+    body(bgcolor="#e0fff6")
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel="stylesheet", href="https://www.w3schools.com/w3css/4/w3.css")
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Raleway")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+    style.
+      body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+    .w3-content(style="max-width:1400px")
+      header.w3-container.w3-center.w3-padding-32
+        h1
+          b Your Dashboard
+          p Here you can make your own posts
+  body
+    .active2  
+    form#form(name="form", method="post", action="/dashboard")
+      input#postTitle(type="text", name = 'postTitle', placeholder="Post Title")
+      input#postDesc(type="text", name = 'postDesc', placeholder="Post Descripton")    	
+      input#createpost(type="submit", value="Post") 
+    block design
+    block design1
+    block design2
+    block design3
+    block design4
+    block design5
+                 
+               
+                
+      
+      
+        
+      
+        

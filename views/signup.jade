@@ -1,0 +1,54 @@
+doctype html
+html
+  head
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    ul
+     li
+       a(href="/") Home
+     li
+       a(href="/login") Login
+     li
+       a(href="/register") Sign Up
+     li
+       a(href="/dashboard") Dashboard
+     li
+       a(href="/logout") Logout
+     li
+       a(href="/about") About
+    link(rel="stylesheet", type="text/css", href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin")
+    body(bgcolor="#e0fff6")
+  body
+    .text
+     h1
+      Login Sign Up
+     h3
+       P Please fill out the details below to become a user
+    .imgcontainer
+       img.avatar(src="../images/wargaming-logo.png", alt="Avatar", height="150", style="width:30%")
+    .active
+    form#input(method="post", action="/register")
+      .container
+        label(for="namee")
+          b 
+            Username Username *
+      input#username(type="text", name = 'username', placeholder="Username", required="")
+      .container
+        label(for="password1")
+          b 
+            Password Password *
+      input#password(type="password", name = 'password', placeholder="Password" , required="")
+      .container
+        label(for="firstname")
+          b 
+             FirstName First Name *
+      input#firstname(type="text", name = 'firstname', placeholder="Firstname" , required="")
+      .container
+        label(for="firstname")
+          b 
+            LastName Last Name *
+      input#lastname(type="text", name = 'lastname', placeholder="Lastname", required="")   	
+      button(type="submit") Sign up 
+      .container
+        input(type="checkbox", checked="checked", name="remember")
+        b
+          r Remember me		
