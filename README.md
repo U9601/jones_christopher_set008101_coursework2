@@ -17,7 +17,7 @@ Express-session SHOULD BE INSTALLED
  * Type localhost:3000
 
 
-## To start on Windows
+## To start on Windows:
 
 * First start up the mongoDB
 * Open the cmd as admin and navigate to where the database is stored
